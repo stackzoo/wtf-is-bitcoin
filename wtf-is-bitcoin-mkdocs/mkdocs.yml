@@ -1,0 +1,26 @@
+site_name: "WTF is Bitcoin?"
+site_description: "Bitcoin for noobs."
+
+theme:
+  logo: images/btc_logo.png
+  name: material
+  palette:
+    scheme: slate
+    primary: orange        # or deep orange
+    accent: orange
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.footer
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - What Bitcoin is not: what-bitcoin-is-not.md
+  - What Bitcoin is: what-bitcoin-is.md
+  - A brief history of money: a-brief-history-of-money.md
+  - Inflation: inflation.md
+  - Scarcity: scarcity.md
+  - Bitcoin: bitcoin.md
